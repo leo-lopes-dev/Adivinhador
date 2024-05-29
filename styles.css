@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+
+body{
+    margin: 0;
+    background-color: #CCFF33 !important;
+}
+
+.content{
+    padding: 100px;
+    text-align: center;
+}
+.content h1{
+    font-family: "Lumanosimo", cursive ;
+    font-size: 50px !important;
+}
+.content h1, button, p {
+    margin: 10px !important;
+    font-size: 20px;
+}
+button{
+    padding: 20px 15px;
+    color: #fff;
+    background-color: #004B23;
+    border-radius: 5px !important;
+    border: hidden !important;
+}
+input{
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.secreto{
+    color: #ff9100;
+    text-decoration: none;
+}
+#red{
+    color: red;
+}
+@media only screen and (max-width: 720px) {
+    .content{
+        padding: 30px;
+        text-align: center;
+    }
+  }
